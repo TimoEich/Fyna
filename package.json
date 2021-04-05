@@ -9,12 +9,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
     "core-js": "^3.9.1",
+    "jquery": "^3.6.0",
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
     "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/svg": "^0.1.12",
     "@nuxtjs/tailwindcss": "^4.0.2",
     "postcss": "^8.2.8"
   }

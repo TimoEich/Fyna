@@ -1,13 +1,19 @@
 <template>
-    <div class="h-screen bg-gray-100 flex items-center justify-center">
-        <p class="uppercase text-9xl font-black">fyna.</p>
+    <div>
+        <div class="mx-auto bg-gray-100 lg:w-1024">
+            <HeaderComp />
+            <HeroComp />
+            <AppShowcasePicture />
+            <ServiceCards />
+            <CallToActionSectionComp />
+        </div>
+        <div>
+            <FooterComp />
+        </div>
     </div>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
-
-export default Vue.extend({});
+<script>
 </script>
 
 <style>
