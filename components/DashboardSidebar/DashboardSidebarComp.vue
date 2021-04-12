@@ -2,7 +2,7 @@
     <div>
         <aside
             id="sideBar"
-            class="absolute top-0 left-0 hidden h-screen py-10 bg-indigo-600 shadow-fyna w-72 rounded-tr-3xl rounded-br-3xl"
+            class="absolute top-0 left-0 z-50 hidden h-screen py-10 bg-indigo-600 shadow-fyna w-72 rounded-tr-3xl rounded-br-3xl"
         >
             <div class="pl-6">
                 <div class="flex flex-row items-center pb-10">

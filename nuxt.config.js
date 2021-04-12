@@ -44,6 +44,24 @@ export default {
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
+        [
+            '@nuxtjs/firebase',
+            {
+                config: {
+                    apiKey: "AIzaSyCADxf4u33Raz4SWB9JX5y3hKN21eq7sM4",
+                    authDomain: "fyna1804.firebaseapp.com",
+                    projectId: "fyna1804",
+                    storageBucket: "fyna1804.appspot.com",
+                    messagingSenderId: "614798366622",
+                    appId: "1:614798366622:web:9ff47b38108ac5ef75688f"
+                    /* measurementId: '<measurementId>' */
+                },
+                services: {
+                    firestore: true,
+                }
+            }
+        ],
+        ['@nuxtjs/axios',],
     ],
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
